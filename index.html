@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>TestGPT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preSubmit" id="preSubmit">
+    <div class="preSubmitH1"><h1>How can I assist you?</h1></div>
+    <div class="preSubmitImages">
+      <img src="/images/web-programming.png" alt="Web Programming" class="webProgramming">
+      <img src="/images/retrieval.png" alt="Data Retrieval" class="retrieval">
+      <img src="/images/problem-solver.png" alt="Problem Solver" class="problemSolver">
+      <img src="/images/writer.png" alt="ContentCreator" class="contentCreator">
+    </div>
+  </div>
+  <pre id="responseText"></pre>
+  <form id="queryForm">
+    <textarea name="query" id="query" placeholder="Ask anything you want..."></textarea>
+    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+  </form>
+  <script src="script.js"></script>
+  <script src="/nodejs/server.js"></script>
+</body>
+</html>
