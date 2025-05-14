@@ -1,7 +1,7 @@
 # 🔍 AI-Powered Search & Response System
 
 An intelligent and lightweight system that uses the **Mistral AI API** to process natural language queries and deliver smart, context-aware responses — without the need for a database.
-
+<video src="Ai-search-response-system (1).mp4" controls width="600"></video>
 ## 🚀 Features
 
 - 🤖 Query understanding with Mistral AI
